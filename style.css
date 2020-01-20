@@ -1,0 +1,124 @@
+body {
+  font-family: 'Raleway', sans-serif;
+}
+.navbar{
+  background-color: #fff;
+  min-height:70px;
+
+}
+.nav-link{
+  padding-top: 50px;
+
+  color: #000000;
+  font-size: 13px;
+  font-weight:400 ;
+}
+.navbar-nav{
+padding-right: 20px;
+}
+.dropdown-menu{
+  border-color: #ffffff;
+  font-size: 13px;
+}
+.nav-item{
+  margin-left: 25px;
+}
+.nav-link:hover{
+  color: #f1f1f1f1;
+}
+.logo-brand{
+  height:60px;
+  width: 150px;
+}
+.navbar-toggler{
+  font-size: 40px;
+}
+.navbar-toggler:focus{outline: none}
+/*-----------------------Banner-Section------------------------->*/
+.banner{
+  background-image: linear-gradient(to top, #FFFFFF,#DBE8FC);
+background-size: cover;
+padding-top: 25px;
+min-height: 600px;
+color: #fff;
+text-align: center;
+}
+h1{
+  color: #1A1A3A;
+  text-align: center;
+  padding-top: 70px;
+  opacity: 100%;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+  font-size: 50px;
+}
+.slogan{
+  color: #A0BEEF;
+}
+.Us{
+  color:#1A1A3A;
+}
+.banner .btn-primary{
+  box-shadow: none;
+  padding: 8px 25px;
+  margin-top: 25px;
+  border:none;
+  border-radius: 25px;
+  background-image: linear-gradient(to right, #2AA0CA,#1A1A3A);
+}
+.search-degree{
+  width: 80%;
+  background-color:#ffffff;
+  border: 1px solid gray;
+  border-radius: 8px;
+  height:200px;
+  margin: auto;
+  margin-top: 20px;
+
+}
+
+/*---------------Sucribe section-----------*/
+
+.suscribe-section{
+  background-image: url("img/background1.png");
+  background-size: cover;
+  padding-top: 20px;
+  min-height: 560px;
+
+}
+.why{
+  padding-left: 25px;
+}
+
+.suscribe-section p{
+  padding-top: 2%;
+}
+
+.inscripciones-2020{
+  text-align: center;
+  margin-right: auto;
+}
+.inscripciones-2020 h3{
+ text-transform:uppercase;
+
+}
+.Suscription-form{
+  background-color:#ffffff;
+  height: 350px;
+  width: 90%;
+  border-radius: 7px;
+  border: 1px solid gray;
+  margin: auto;
+
+}
+/*----------Destinos------------*/
+.Destinos-section{
+  background-color:#E5E5E5;
+  min-height: 400px;
+}
+/*----------Programas------------*/
+
+.Programas-section{
+  background-color:#343A40;
+  min-height: 400px;
+}
